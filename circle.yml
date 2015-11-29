@@ -1,0 +1,10 @@
+test:
+  override:
+    - rake test
+dependencies:
+  post:
+    - gem install minitest
+machine:
+  ruby:
+    version: 2.2.3
+
